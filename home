@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+            aria-expanded="true" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home </a>
+                </li>          
+                <li class="nav-item">
+                    <a class="nav-link" href="#showreel">Showreel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#headshots">Headshots</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#credits">Credits</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">| Future Project</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+</header>
+
+<body>
+    <section id="intro">
+            <div class="intro-overlay intro-overlay-header">
+                <div id="showreel">
+                        <div class="container">
+                                            <div class="name-panel intro-overlay">
+                                                <div class="intro-content">
+                                                    <h1 class="name-title" href="#">My Showreel</h1>
+                                                </div>
+                                </div>
+                                    <div class="row">
+                                        <div class="col-lg-9 col-md-12 ml-auto">
+                                    <div class="video-wrapper">
+                                        <div class="showreel-overlay">
+                                            <img src="./vid/overlay.JPG" alt="Example image">
+                                        </div>
+                                        <!-- Trigger/Open The Modal -->
+                                        <i class="fa fa-play fa-6x" id="myBtn"></i>
+                
+                                        <!-- The Modal -->
+                                        <div id="myModal" class="modal">
+                
+                                            <!-- Modal content -->
+                                            <div class="modal-content">
+                                                <span class="close">X</span>
+                                                <video class="video mx-auto" width="95%" controls loop="false" autoplay="false">
+                                                    <source src="./vid/IMG_1449.mp4" type="video/mp4">
+                                                    <source src="./vid/IMG_1449.ogg" type="video/ogg">
+                                                        
+                                                    Your browser does not support HTML5 video.
+                                                </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        </div>
+                                    <div class="col-lg-3 col-md-12 ml-auto">
+                                        <div class="name-panel intro-overlay">
+                                            <div class="intro-content">
+                                                <h1 class="name-title" href="#">Dann Kharsa, Actor</h1>
+                                            </div>
+                                        </div>
+                                        <div class="main_about_area">
+                                                <div class="head_title">
+                                                        <div class="main_home text-center">
+                                           <div class="main-headshot">                   
+                        <img src="./images/face-1.jpg" alt="Example image">
+                    </div>  
+                                                                <ul>
+                                                                    <li>Height: 177cm / 5'10"</li>
+                                                                    <li>Playing Age: 21-30</li>
+                                                                    <li>Location: Greater London, England, United Kingdom</li>
+                                                                    <li>Appearance: White</li>
+                                                                    <li>Hair Colour: Black</li>
+                                                                    <li>Eye Colour: Brown</li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </section>
+    <section id="headshots">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="name-panel intro-overlay">
+                        <div class="intro-content">
+                            <h1 class="name-title" href="#">Headshots</h1>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="headshot-gallery">
+                <div class="col-sm-4">
+                <img src="./images/face-1.jpg" alt="Example image" class="img-fluid">
+            </div>
+            <div class="col-sm-4">
+                <img src="./images/face-2.jpg" alt="Example image" class="img-fluid">
+            </div>
+            <div class="col-sm-4">
+                <img src="./images/face-3.jpg" alt="Example image" class="img-fluid">
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="about-me" class="altered-col">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="name-panel intro-overlay">
+                            <div class="intro-content">
+                                <h1 class="name-title" href="#">About Me</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="main_about_area p-t-3">
+                            <div class="head_title m-y-3 wow fadeInUp">
+                                <div class="m-b-2">
+                                    <div class="main_home">
+                                        <p class="block intro-position">
+                                            <h3>Accents & Dialects:</h3>
+                                            <p>American-New York, American-Southern States, American-Standard, Arab, Asian, Cockney, Durham, English-Standard, Geordie, Indian, Italian, Lancashire, Latin American, Liverpool, London, Middle Eastern, Middlesbrough*, Northern, Turkish, Yorkshire</p>
+                                            <h3>Music & Dance:</h3>
+                                            <p>Ballet, Contemporary Dance, Contemporary Singing, Falsetto, Jazz Dancing, Jazz Singing, Modern Dance, Pas de Deux, Street Dance, Street Jazz, Swing Singing, Tap, Tenor</p>
+                                            <h3>Performance:</h3>
+                                            <p>Dancer-Professional, Musical Theatre, Professional Dancer, Professional Singer, Singer-Professional</p>
+                                            <h3>Sports:</h3>
+                                            <p>Athletics, Basketball, Boxing, Fishing, Football, Horse-riding, Martial Arts, Rollerblading, RollerSkating, Weight Training</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="agency" class="altered-col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="name-panel intro-overlay">
+                                <div class="intro-content">
+                                    <h1 class="name-title" href="#">Agency</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="main_about_area p-t-3">
+                                <div class="head_title m-y-3 wow fadeInUp">
+                                    <div class="m-b-2">
+                                        <div class="main_home">
+                                            <p class="block intro-position">
+                                                <p class="block m-b-2">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                                    text ever since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book. It has survived not only five
+                                                    centuries, but also the leap into electronic typesetting, remaining
+                                                    essentially unchanged. It was popularised in the 1960s with the release of
+                                                    Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                                    desktop publishing software like Aldus PageMaker including versions of Lorem
+                                                    Ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <section id="credits" class="altered-col">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="name-panel intro-overlay">
+                        <div class="intro-content">
+                            <h1 class="name-title" href="#">Credits</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="name-panel intro-overlay">
+                        <div class="intro-content">
+                            <h1 class="name-title" href="#">Film</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="block animatable bounceIn inner-content">
+                                <h3 class="title">THE WORST JOBS IN HISTORY</h3>
+                                <h4>Date</h4>
+                                <p>Channel 4 Spiral Films</p>
+                                <p class="description">About it</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="block animatable bounceIn inner-content">
+                                <h3 class="title"> John Barrowman's TONIGHTS THE NIGHT</h3>
+                                <h4>Date</h4>
+                                <p>BBC ONE</p>
+                                <p class="description">Ensemble, About it</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="block animatable bounceIn inner-content">
+                                <h3 class="title">FIT!</h3>
+                                <h4>Date</h4>
+                                <p>Feature Film for Angelica Productions</p>
+                                <p class="description">Stevie, About it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                            <div class="block animatable bounceIn inner-content">
+                                <h3 class="title">KICK OFF</h3>
+                                <h4>Date</h4>
+                                <p>Feature Film for Achilles Entertainment</p>
+                                <p class="description">Darren, About it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                    <div class="col-sm-12">
+                            <div class="name-panel intro-overlay">
+                                <div class="intro-content">
+                                    <h1 class="name-title" href="#">Theatre</h1>
+                                </div>
+                            </div>
+                        </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-content">
+
+                                                    <img class="img-fluid" src="./images/aladdin-cover.jpg">                                                
+                                                    <h2> 2017 - 2019</h2>
+                                                    <p>Disney Theatrical Productions</p> 
+                                                    <p>Plays Razoul,  understudy to Jafar, Sultan & Babkak</p>
+                                                    <p>(Dir): Casey Nicolaw</p>
+                                          </div>
+                            </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                                                <img class="img-fluid" src="./images/chicago-cover.png">
+                                                <h2> SINGAPORE TOUR 2017</h2>
+                                                <p> David Ian Productions</p> 
+                                                <p>Plays Amos Hart</p>
+                                                <p>(Dir): Tania Nardini Rocha</p>
+                                              </div>
+                                            </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-content">
+                                                <img class="img-fluid" src="./images/amadeus-cover.jpg">
+                                                <h2> 2014</h2>
+                                                <p> Chichester Festival Theatre</p> 
+                                                <p>Ensemble</p>
+                                                <p>(Dir): Jonathan Church - (Staging): Stephen Mear</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-6">
+                                            <div class="timeline">
+                                                <div class="timeline-content">
+                                                                            <img class="img-fluid" src="./images/idomeneo-cover.png" alt="Example image">
+                                                                        <h2> 2014</h2>
+                                                                        <p> Royal Opera House</p> 
+                                                                        <p>Ensemble</p>
+                                                                        <p>(Dir): Martin Kušej</p>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                        
+                                          <div class="col-lg-6">
+                                            <div class="timeline">
+                                                <div class="timeline-content">
+                                                                        <img class="img-fluid" src="./images/miracle-cover.png">
+                                                                      </div>
+                                                  
+                                                                    <div class="timeline-content">
+                                                                        <img class="img-fluid" src="./images/pan-cover.png" alt="Example image">
+                                                                  </div>
+                                                                    </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="timeline">
+                                                <div class="timeline-content">
+                                                                            <img class="img-fluid" src="./images/cinderella-cover.png" alt="Example image">
+                                                                      </div>
+                                                                      <div class="timeline-content">
+                                                                                                <img class="img-fluid" src="./images/dick-cover.png" alt="Example image">
+                                                                    </div>
+                                                                    <div class="timeline-content">
+                        
+                                                                        <img class="img-fluid" src="./images/priscilla-cover.png">
+                                                                    </div>
+                                                             
+                                                                                        </div>
+                                                                                      </div>     
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                  </div>
+                </div>
+    </section>
+    <!-- <section id="portfolio" class="altered-col">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="name-panel intro-overlay">
+                            <div class="intro-content">
+                                <h1 class="name-title" href="#">Future Projects</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="main_about_area p-t-3">
+                            <div class="head_title m-y-3 wow fadeInUp">
+                                <div class="m-b-2">
+                                    <div class="main_home">
+                                        <p class="block intro-position">
+                                            <p class="block m-b-2">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                                text ever since the 1500s, when an unknown printer took a galley of type and
+                                                scrambled it to make a type specimen book. It has survived not only five
+                                                centuries, but also the leap into electronic typesetting, remaining
+                                                essentially unchanged. It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                                desktop publishing software like Aldus PageMaker including versions of Lorem
+                                                Ipsum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+</body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+               <h1>© Copyright 2019 Dann Kharsa | All rights reserved<i class="fas fa-envelope-square fa-2x"></i><i class="fab fa-twitter-square fa-2x"></i></h1> </div></div>  
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+</body>
+
+</html>
